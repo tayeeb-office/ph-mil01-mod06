@@ -2,6 +2,7 @@
 
 *{
     max-width: 1440 px;
+    margin: 0;
 }
 
 /* Navbar Styles */
@@ -12,6 +13,7 @@ header{
     background-position: center;   
     background-repeat: no-repeat;  
     width: 100%;
+    padding-top: 71px;
 }
 nav{
     display: flex;
@@ -39,8 +41,7 @@ nav button {
     font-weight: 800;
     border-radius: 10px;
     border: 5px solid #4E47FF;
-
-}
+    }
 
 .banner{
     display: flex;
@@ -68,6 +69,7 @@ nav button {
     font-weight: 800;
     border-radius: 10px;
     border: 5px solid #4E47FF;
+    margin-top: 37px;
 }
 
 button:hover{
@@ -86,7 +88,7 @@ main{
 .action{
     display: flex;
     justify-content:space-around;
-    padding: 222px 0px;
+    padding: 222px 0px 0px 0px;
     align-items: center;
 }
 
@@ -109,6 +111,7 @@ main{
 
 .action p{
     color: #252432;
+    margin: 23px 0px;
 }
 
 .action button{
@@ -131,9 +134,56 @@ button:hover{
 
 }
 
-
 /* Numbers Section Styles */
 
+.Numbers{
+    background-color: hsl(243, 100%, 93%);
+    padding: 50px 142px;
+    margin: 116px 159px;
+    border-radius: 24px;
+}
+.numbers{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.numbers01{
+    display: flex;
+    justify-content:space-between;
+    gap:150px;
+    margin-top: 40px;
+}
+
+.numbers02{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numbers h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.numbers02 h1{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight:bolder;
+    color: #4E47FF;
+}
+
+.numbers02 h6{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight:300;
+    color: #252432;
+}
 
 /* Reviews Section Styles */
 
@@ -145,3 +195,21 @@ button:hover{
 
 
 /* Footer Styles */
+
+.footer_div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+footer h1{
+     font-family: "Inter", sans-serif;
+     font-size: 100px;
+     font-weight:bolder;
+}
+
+.footer_div ul{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+}
