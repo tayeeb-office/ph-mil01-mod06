@@ -296,6 +296,88 @@ button:hover{
 
 /* Contact Section Styles */
 
+.contact{
+    margin: 0px 150px;
+}
+.contact01{
+    display: flex;
+    justify-content:center;
+    gap: 115px;    
+    align-items: center;
+}
+
+.contact02{
+    max-width: 497px;
+    margin-bottom: 85px;
+}
+
+.contact02 label{
+    display: block;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight:400;
+}
+
+.contact02 input[type="text"]{
+    width: 497px ;
+    height: 70px;
+    background-color:#FFFFFF ;
+    color: #252432;
+    border: 2px solid #D6DDED;
+    border-radius: 10px;
+    padding: 0px 32px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.contact02 input[type="email"]{
+    width: 497px ;
+    height: 70px;
+    background-color:#FFFFFF ;
+    color: #252432;
+    border: 2px solid #D6DDED;
+    border-radius: 10px;
+    padding: 0px 32px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.contact02 textarea{
+    width: 497px ;
+    height: 135px;
+    background-color:#FFFFFF ;
+    color: #252432;
+    border: 2px solid #D6DDED;
+    border-radius: 10px;
+    padding: 15px 32px;
+    font-size: 20px;
+    margin: 10px 0px;
+    font-family: "Inter", sans-serif;
+}
+
+.contactbutton{
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    border: 5px solid #4E47FF;
+    width: 565px;
+    display: block;
+}
+
+.contactbutton:hover{
+    background-color: #F5F8FF;
+    color: #4E47FF;
+}
+
+.contact h1{
+    font-family: "Raleway", sans-serif;
+    font-size: 97px;
+    font-weight:bolder;
+    max-width: 528px;
+}
 
 /* Footer Styles */
 
@@ -315,4 +397,8 @@ footer h1{
     display: inline;
     list-style: none;
     text-decoration: none;
+}
+
+input{
+    colo
 }
