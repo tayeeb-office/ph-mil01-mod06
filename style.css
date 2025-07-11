@@ -149,8 +149,6 @@ button:hover{
     flex-direction: column;
 }
 
-
-
 .numbers01{
     display: flex;
     justify-content:space-between;
@@ -187,8 +185,113 @@ button:hover{
 
 /* Reviews Section Styles */
 
+.reviews{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.reviews01{
+    display: flex;
+    justify-content:space-between;
+    gap:20px;
+    margin-top: 40px;
+}
+
+.reviews02{
+    max-width: 366px;
+    max-height: 243px;
+    background-color: #FFFFFF;
+    border-radius: 14px;
+}
+
+.reviews03{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+
+}
+
+.reviews03 img{
+    margin: 24px 12px 24px 24px;
+    border-radius: 9999px;
+}
+
+.reviews_star{
+    margin: 24px;
+}
+
+.reviews h3{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.reviews02 h4{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px 24px;
+}
+
+.reviews02 p{
+    font-size: 16px;
+    margin: 8px 24px;
+}
+
 
 /* Retarget Section Styles */
+
+.retarget{
+    padding: 71px 150px;
+    background-color: #FFFFFF;
+    margin: 137px 151px;
+}
+.retarget01{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.retarget02{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.retarget02 h2{
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.retarget02 p{
+    font-size: 16px;
+    margin: 20px 0px;
+    color: #252432;
+}
+
+.retarget02 button{
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    border: 5px solid #4E47FF;
+}
+
+button:hover{
+    background-color: #F5F8FF;
+    color: #4E47FF;
+}
+
+.retarget01 img{
+    border-radius: 48px;
+    margin: 20px 0px;
+}
 
 
 /* Contact Section Styles */
