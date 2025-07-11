@@ -75,7 +75,61 @@ button:hover{
     color: #4E47FF;
 }
 
+/* Main Styles */
+
+main{
+    background-color: #F5F8FF;
+}
+
 /* Action Section Styles */
+
+.action{
+    display: flex;
+    justify-content:space-around;
+    padding: 222px 0px;
+    align-items: center;
+}
+
+.action div{
+    max-width: 517px;
+}
+
+.action h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight:600px;
+}
+
+.action p{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    font-weight:200;
+    font-style: normal;
+}
+
+.action p{
+    color: #252432;
+}
+
+.action button{
+    padding: 12px 36px;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 10px;
+    border: 5px solid #4E47FF;
+}
+
+button:hover{
+    background-color: #F5F8FF;
+    color: #4E47FF;
+}
+
+.action img {
+    border-radius: 48px;
+
+}
 
 
 /* Numbers Section Styles */
