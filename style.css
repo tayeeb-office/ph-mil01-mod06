@@ -216,6 +216,8 @@ button:hover{
 .reviews03 img{
     margin: 24px 12px 24px 24px;
     border-radius: 9999px;
+    width: 40px;
+    height: 40px;
 }
 
 .reviews_star{
@@ -238,6 +240,22 @@ button:hover{
     font-size: 16px;
     margin: 8px 24px;
 }
+
+.reviews03 h5{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    color: #757575;
+}
+
+.reviews03 h6{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight:200;
+    color: #757575;
+    padding: 0;
+}
+
 
 
 /* Retarget Section Styles */
